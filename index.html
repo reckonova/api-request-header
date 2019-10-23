@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/header-parser-style.css" />
+    <script src="/server.js" defer></script>
+    <title>Header Parser</title>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h2>
+          Request Header Parser Microservice
+        </h2>
+      </header>
+      <br />
+      <section class="userStory">
+        <h3>Curious about your IP? click here!</h3>
+        <form>
+          <h3>Click the Button to find out!</h3>
+          <button>
+            <a href="/api/whoami" type="button" id="submit">Who Am I?</a>
+          </button>
+          <br /><h3>
+          (Clicking adds "/api/whoami" to the URL)
+          </h3>
+          <br />
+        </form>
+      </section>
+      <br />
+      <section class="userStory">
+        <h3><b>Output is Expected to Looks Like This:</b></h3>
+        <br />{<br />
+        <p style="code"></p>
+        "ipaddress":"159.20.14.100",<br />"language":"en-US,en;q=0.5",<br />
+        "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0)
+        Gecko/20100101 Firefox/50.0"<br />
+        <br />}
+      </section>
+      <br />
+      <br />
+    </main>
+  </body>
+</html>
