@@ -7,7 +7,7 @@ body {
 	background-color: #012321;
 	text-align: center;
 	line-height: 1.4em;
-  
+  float:left;
 }
 
 h3 {
@@ -26,12 +26,7 @@ section {
    background-color: #BBDEFB;
   width:100%;
 }
-.userStory {
-  position: relative;
-  text-align: left;
-  margin: auto;
- 
-}
+
 
 code {
   font-family: monospace;
@@ -111,7 +106,7 @@ form {
   background-color: #834e56;
   display: inline-block;
   width: 100%;
-  max-width: 320px;
+  max-width: 300px;
   border-radius: 5px;
   margin: 20px;
     border: 1px solid black;
