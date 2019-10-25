@@ -2,7 +2,6 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-  "author": "Ľubomír Drinka",
   "name": "request header parser",
   "version": "0.0.5",
   "description": "microservice project for fcc",
